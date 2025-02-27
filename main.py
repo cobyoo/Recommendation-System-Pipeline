@@ -28,3 +28,4 @@ recommendations = userRecs.select("userId", explode("recommendations").alias("re
 recommendations.show()
 
 spark.stop()
+# Test commit
